@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 15px 15px 15px 15px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.header h2{
+    margin-left: 10px;
+    
+    color: red;
+}
+
+.header span{
+    font-size: 16px;
+    color: grey;
+}
+
+.search-box{
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+}
+
+.search-box input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(225, 225, 255);
+    border: none;
+}
+
+.search-box i{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 18px;
+    color: rgb(129, 129, 129);
+}
+
+.setting{
+    display: flex;
+    margin-left: 32%;
+    gap: 15px;
+    align-items: center;
+}
+
+.setting h3{
+    background-color: rgb(31, 74, 206);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 9px;
+}
+
+.sidebar{
+    padding: 50px 15px;
+    width: 100%;
+    height: 85vh;
+    border-radius: 10px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+
+}
+
+.inbox, .sent, .favorite, .spam, .drafts, .more{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.inbox p{
+    margin-left: 80px;
+}
+
+.inbox{
+    background-color: rgb(248, 205, 169);
+}
+
+.inbox:hover, .spam:hover, .sent:hover, .drafts:hover, .favorite:hover, .more:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+h4{
+    color: rgb(121, 121, 121);
+}
+
+.main{
+  
+    margin-left: 40px;
+    height: 80vh;
+    width: 80%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-nav{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.primary{
+    color: rgb(255, 18, 18);
+    border-bottom: 3px solid rgb(255, 21, 0);
+    border-radius: 2px;
+   
+}
+
+.main{
+    max-height: 560px;
+    overflow: auto;
+}
+
+.main-mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 35px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.main-mail h3{
+    font-size: 15px;
+}
+
+.main-mail:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mail-content{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    color: rgb(128, 128, 128);
+  
+}
+
+#mail-number{
+    background: rgb(95, 95, 95);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 14px;
+}
